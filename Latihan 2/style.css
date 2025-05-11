@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #e0eafc, #cfdef3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.profile-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.title {
+  color: #2980b9;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.contact p {
+  margin: 6px 0;
+  color: #34495e;
+  transition: color 0.3s ease;
+}
+
+.contact p:hover {
+  color: #1c5980;
+}
