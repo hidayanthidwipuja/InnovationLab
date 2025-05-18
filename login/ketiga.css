@@ -1,0 +1,32 @@
+.input-box input::placeholder {
+    color: white;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20%;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    color: white;
+    margin-right: none;
+}
+
+.remember-forgot a {
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
